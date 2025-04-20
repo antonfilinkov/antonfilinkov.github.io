@@ -13,12 +13,11 @@
 	<div class="mobileBody">
 		<header>
 			<img src="logo.png" class="logo">
-			<img src="burger.png" class="burger">
 		</header>
 		<hr>
 		<div class="promo">
 			<h1>Тарифы с домашним <br>интернетом и ТВ<br> от 425 ₽/мес <br><br>Подключайтесь!</h1>
-			<a href="#">Оставить заявку</a>
+			<a href="#form">Оставить заявку</a>
 		</div>
 		<div class="advantages">
 			<div class="timings">
@@ -41,7 +40,7 @@
 			<b>425₽/мес &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;850₽/мес</b><br>
 			первые 4 месяца &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; с 5 месяца
 			</p>
-			<a href="#" class="tarif-card-btn">Перейти</a>
+			<a href="#form" class="tarif-card-btn">Перейти</a>
 		</div>
 		<div class="tarif-card">
 			<h1>Технологии выгоды лучший старт</h1>
@@ -54,7 +53,7 @@
 			<b>525₽/мес &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1050₽/мес</b><br>
 			первые 2 месяца &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; с 3 месяца
 			</p>
-			<a href="#" class="tarif-card-btn">Перейти</a>
+			<a href="#form" class="tarif-card-btn">Перейти</a>
 		</div>
 		<div class="tarif-card">
 			<h1>Технологии развлечения</h1>
@@ -64,7 +63,7 @@
 			<b>350₽/мес &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;700₽/мес</b><br>
 			первые 4 месяца &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; с 5 месяца
 			</p>
-			<a href="#" class="tarif-card-btn">Перейти</a>
+			<a href="#form" class="tarif-card-btn">Перейти</a>
 		</div>
 		<div class="tarif-card">
 			<h1>Технологии доступа</h1>
@@ -73,15 +72,26 @@
 			<br><br>
 			<b>650₽/мес</b>
 			</p>
-			<a href="#" class="tarif-card-btn">Перейти</a>
+			<a href="#form" class="tarif-card-btn">Перейти</a>
 		</div>
 		<br>
 		<hr>
 		<div class="bottom-promo">
 			<h1>Заполните форму и <br>наш специалист<br> ответит в Вам в<br> течении дня!</h1>
 		</div>
-		<script src="https://forms.yandex.ru/_static/embed.js"></script>
-		<iframe src="https://forms.yandex.ru/cloud/680562f8e010db2e17c93316/?iframe=1" frameborder="0" name="ya-form-680562f8e010db2e17c93316" width="100%"></iframe>
+		<form action="https://formspree.io/f/xnndaalk" method="POST" id="form">
+ 				<label>
+    				<b>Имя:</b><br>
+    				<input class="form-input" type="name" name="name">
+  				</label><br><br>
+  				<label>
+    				<b>Номер:</b><br>
+    				<input name="message" class="form-input"></input>
+  				</label><br><br>
+  				<!-- your other form fields go here -->
+  				<button class="form-btn" type="submit">Отправить</button>
+		</form>
+		<br><br><br>
 		<footer>
 			<p>2025<br>Партнер ПАО “Ростелеком”</p>
 		</footer>
