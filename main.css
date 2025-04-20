@@ -1,0 +1,104 @@
+/*Base*/
+*{
+	font-family: "Manrope", sans-serif;
+}
+.body{
+	display: grid;
+}
+.mobileBody{
+	background: #FFFFFF;
+	margin: auto;
+	max-width: 450px;
+}
+/*Header*/
+header{
+	display: flex;
+ 	justify-content: space-between;
+ 	align-items: end;
+}
+.logo{
+	height: 63px;
+	width: 240px;
+}
+.burger{
+	height: 45px;
+	width: 45px;
+}
+
+/*Promo*/
+.promo{
+	position:relative;
+	width: 100%;
+	aspect-ratio: 1 / 1;
+	border-radius: 38px;
+	border-top-left-radius: 0px;
+	background-image: url("promobg.png");
+}
+
+.promo h1{
+	color: white;
+	padding: 5%;
+}
+.promo p{
+	color: white;
+	padding: 5%;
+}
+
+.promo a{
+	font-size: 20px;
+	position: absolute;
+	bottom: 5%;
+	margin-left: 5%;
+	border-radius: 10px;
+	text-decoration: none;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background: #FF4F12;
+	color: white;
+}
+
+/*advantages*/
+.advantages{
+	justify-content: space-between;
+	display: grid;
+	grid-template-columns: 67.5% 30%;
+}
+.timings{
+	display: flex;
+	align-items: center;
+	margin-top: 15px;
+	border-radius: 38px;
+	text-align: center;
+	border: solid 4px #FF4F12;
+}
+.timings p{
+	margin-left: auto;
+	margin-right: auto;
+}
+.speed{
+	display: flex;
+	align-items: center;
+	margin-top: 15px;
+	aspect-ratio: 1 / 1;
+	color: white;
+	border-radius: 38px;
+	text-align: center;
+	background: #FF4F12;
+}
+.speed p{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/*media request*/
+@media screen and (max-width: 375px){
+	.promo{
+		font-size: 14px;
+	}
+	.advantages{
+		font-size: 13px;
+	}
+}
