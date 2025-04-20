@@ -94,16 +94,60 @@ header{
 
 /*tarrifs*/
 .tarif-card{
+	padding-bottom: 5%;
 	border-radius: 18px;
 	color: white;
 	width: 100%;
+	height:;
 	background: linear-gradient(#7700FF, #470099);
 }
 .tarif-card p, h1{
 	padding: 5%;
 }
-
-
+.tarif-card-btn{
+	color: white;
+	text-decoration: none;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 10px;
+	border: solid 1px white;
+	margin-left: 5%;
+	margin-bottom: 10px;
+}
+.tarif-card-btn:hover{ 
+	transition: 0.5s ease-in-out;
+	color: #7700FF;
+	background: white;
+}
+/*bottom promo*/
+.bottom-promo h1{
+	padding-left: 0px;
+}
+.bottom-promo a{
+	color: white;
+	background: #7700FF;
+	text-decoration: none;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 10px;
+}
+/*footer*/
+footer{
+	display: flex;
+	align-items: center;
+	text-align: center;
+	height: 150px;
+	color: white;
+	background: #443E3E;
+}
+footer p{
+	margin-left: auto;
+	margin-right: auto;
+}
 /*media request*/
 @media screen and (max-width: 375px){
 	.promo{
