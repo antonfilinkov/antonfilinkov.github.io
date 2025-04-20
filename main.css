@@ -97,7 +97,7 @@ header{
 	border-radius: 18px;
 	color: white;
 	width: 100%;
-	background: black;
+	background: linear-gradient(#7700FF, #470099);
 }
 .tarif-card p, h1{
 	padding: 5%;
