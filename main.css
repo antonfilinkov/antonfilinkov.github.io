@@ -135,6 +135,19 @@ header{
 	padding-bottom: 10px;
 	border-radius: 10px;
 }
+
+/*form*/
+.form-input{
+	height: 50px;
+	width: 100%;
+}
+.form-btn{
+	height: 50px;
+	width: 100%;
+	color: white;
+	background: #7700FF;
+}
+
 /*footer*/
 footer{
 	display: flex;
@@ -148,6 +161,7 @@ footer p{
 	margin-left: auto;
 	margin-right: auto;
 }
+
 /*media request*/
 @media screen and (max-width: 375px){
 	.promo{
